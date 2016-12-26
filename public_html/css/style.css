@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(7, 5, 14);
+}
+.plandetravail_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1170px;
+    height: 1273px;
+    z-index: 21;
+}
+
+/**********HEADER**********/
+.formeheader_ img{
+    width: 100%;
+}
+.formeheader_{
+        width: 100%;
+}
+.logo_ {
+    margin: 33px;
+    width: 18%;/*319px*/
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.logo_ img{
+    width: 100%;
+}
+.titre_ {
+    font-size: 35px;
+    font-family: "Century Gothic";
+    color: rgb(255, 244, 207);
+    line-height: 1.2;
+    text-align: left;
+    padding-right: 22px;
+    margin-top: 50px;
+    width: 270px;
+    height: 26px;
+}
+.soustitre_ {
+    font-size: 30px;
+    font-family: "Century Gothic";
+    color: rgb(255, 244, 207);
+    height: 50px;
+    width: 469px;
+    margin-bottom: 0px;
+    margin-top: 45px;
+    float: right;
+}
+/**********FIN HEADER**********/
+
+
+/************MENU**************/
+.plandusite_ {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: rgb(255, 244, 207);
+    line-height: 1.2;
+}
+.mentionslegales_ {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: rgb(255, 244, 207);
+    line-height: 1.2;
+}
+.contact_ {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: rgb(255, 244, 207);
+    line-height: 1.2;
+}
+.series_ {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: rgb(255, 244, 207);
+    line-height: 1.2;
+}
+.films_ {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: rgb(255, 244, 207);
+    line-height: 1.2;
+    text-align: left;
+}
+/***************FIN MENU******************/
+
+
+/***************CAROUSEL******************/
+#myCarousel{
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;  
+}
+
+/* Carousel base */
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+/**************FIN CAROUSEL****************/
+
+/*******LISTE ==> MENU**********/
+ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+
+a:focus, a:hover {
+    color: #cfd4ff;
+    text-decoration: none;
+}
+
+ul li a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 46px;
+}
+/*******************************/
+
+
+.presentation_ {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: rgb(255, 244, 207);
+    line-height: 1.2;
+    text-align: left;
+    margin-left: 25px;
+}
+.footer_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1170px;
+    height: 1576px;
+    z-index: 6;
+}
+.formefooter_ {
+    height: 230px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 25px;
+}
+.formefooter_ img {
+    width: 100%
+}
+
+.copyright_ {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: rgba(255, 244, 207, 0.502);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 85px;
+    top: 1073.418px;
+    width: 389px;
+    height: 23px;
+    z-index: 4;
+}
+.fond_ {
+    background-image: url("fond.png");
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1170px;
+    height: 1273px;
+    z-index: 2;
+}
+
+
+/******************************RESPONSIVE*********************************/
+@media (max-width: 320px) {
+    .logo_ {
+        margin: 21px;
+        width: 16%;/*319px*/
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+}
+@media (width: 480px) {
+    .logo_ {
+        margin: 28px;
+        width: 18%;/*319px*/
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+}
+@media (width: 750px) {
+    .logo_ {
+        margin: 33px;
+        width: 24%;/*319px*/
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+}
+@media (width: 970px) {
+    .logo_ {
+        margin: 33px;
+        width: 19%;/*319px*/
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+}
+@media (width: 1170px) {
+    .logo_ {
+        margin: 33px;
+        width: 24%;/*319px*/
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+}
